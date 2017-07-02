@@ -28,16 +28,19 @@
     #include <GuaraTeca_MotorShield.h>
     #include <GuaraTeca_Servo.h>
     #include <GuaraTeca_SensorRefletancia.h>
-    #include <GuaraTeca_SensorCor.h>
-    #include <GuaraTeca_SensorUltrassonico.h>
-    #include <GuaraTeca_SensorGiroscopioAcelerometro.h>
+    #include <GuaraTeca_Sensor_TCS230.h>
+    #include <GuaraTeca_Sensor_HCSR04.h>
+    #include <GuaraTeca_Sensor_GY521_MPU6050.h>
     #include <GuaraTeca_SensorAgua.h>
     #include <GuaraTeca_SensorDHT.h>
     #include <GuaraTeca_Buzzer.h>
+    #include <GuaraTeca_PushButton.h>
 	#include <GuaraTeca_TelaCristalLiquido.h>
+    #include <GuaraTeca_Led.h>
 #elif funcao == 2
     #include <GuaraTeca_OBR.h>
 #elif funcao == 3
     #include <GuaraTeca_Aprender.h>
 #endif
+
 #endif
