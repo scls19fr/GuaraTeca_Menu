@@ -20,6 +20,20 @@
 #define Desativada 2
 
 //Include of biblios-------------------------------
+#if Control_TelaCristalLiquido == Ativada
+	#include <GuaraTeca_TelaCristalLiquido.h>
+#endif
+
+#if Control_Buzzer == Ativada
+    #include <GuaraTeca_Buzzer.h>
+#endif
+#if Control_Led == Ativada
+   #include <GuaraTeca_Led.h>
+#endif
+#if Control_PushButton == Ativada
+   #include <GuaraTeca_PushButton.h>
+#endif
+
 #if Control_PonteH == Ativada
     #include <GuaraTeca_PonteH.h>
 #endif
@@ -29,27 +43,22 @@
 #if Control_Servo == Ativada
     #include <GuaraTeca_Servo.h>
 #endif
+
 #if Control_SensorRefletancia == Ativada
     #include <GuaraTeca_SensorRefletancia.h>
 #endif
-#if Control_SensorCor == Ativada
-    #include <GuaraTeca_SensorCor.h>
+#if Control_Senso_TCS230 == Ativada
+    #include <GuaraTeca_Sensor_TCS230.h>
 #endif
-#if Control_SensorUltrassonico == Ativada
-    #include <GuaraTeca_SensorUltrassonico.h>
+#if Control_Sensor_HCSR04 == Ativada
+    #include <GuaraTeca_Sensor_HCSR04.h>
 #endif
-#if Control_SensorGiroscopioAcelerometro == Ativada
-    #include <GuaraTeca_SensorGiroscopioAcelerometro.h>
+#if Control_Sensor_GY521_MPU6050 == Ativada
+    #include <GuaraTeca_Sensor_GY521_MPU6050.h>
 #endif
 #if Control_SensorAgua == Ativada
     #include <GuaraTeca_SensorAgua.h>
 #endif
 #if Control_SensorDHT == Ativada
     #include <GuaraTeca_SensorDHT.h>
-#endif
-#if Control_Buzzer == Ativada
-    #include <GuaraTeca_Buzzer.h>
-#endif
-#if Control_TelaCristalLiquido == Ativada
-	#include <GuaraTeca_TelaCristalLiquido.h>
 #endif
